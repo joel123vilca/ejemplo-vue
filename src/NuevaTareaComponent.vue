@@ -2,7 +2,7 @@
   <div class="input-group">
     <input type="text"
         placeholder="Escribe una nueva tarea"
-        v-model="NuevaTarea"
+        v-model="nuevaTarea"
         class="form-control"
         v-on:keyup.enter="agregarTarea">
         <span class="input-group-btn">
